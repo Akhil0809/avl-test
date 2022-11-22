@@ -1,5 +1,5 @@
 FROM ubuntu
-ADD  flask-calculator /
+ADD  * /
 RUN cd /
 RUN apt-get update
 RUN apt-get install -y python3
